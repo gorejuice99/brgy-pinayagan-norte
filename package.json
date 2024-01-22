@@ -13,7 +13,9 @@
     "eslint": "eslint . --ext .ts,.tsx",
     "test": "vitest --config ./vitest.config.ts",
     "test:ui": "vitest --ui",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "predeploy" : "tsc && vite build --mode=dev",
+    "deploy" : "gh-pages -d build"
   },
   "dependencies": {
     "@aws-amplify/ui-react": "^4.3.8",
@@ -53,6 +55,7 @@
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-n": "^15.6.1",
     "eslint-plugin-promise": "^6.1.1",
+    "gh-pages": "^6.1.1",
     "jsdom": "^21.1.1",
     "prettier": "2.8.4",
     "typescript": "^4.9.5",
