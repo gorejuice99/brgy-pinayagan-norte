@@ -1,0 +1,108 @@
+// Import Bootstrap and its default variables
+@import 'styles/base/bootstrap';
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+:root {
+  * {
+    font-family: 'Graphik';
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    /* width of the entire scrollbar */
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+    /* color of the tracking area */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(120, 120, 120, 0.7);
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+  }
+
+  --white: #ffffff;
+  --dark: rgba(55, 65, 81, 1);
+  --darker: #091122;
+  --gray: #bebeb4;
+
+  --grey-5: #f6f5f7;
+  --grey-10: #e5e5e5;
+  --grey-20: #e0d8e5;
+  --grey-30: #9aa0a8;
+  --grey-60: #786980;
+  --grey-70: #383838;
+  --grey-100: #17121a;
+  --gray-dark: #7b8e98;
+  --light-gray: #f7f7f7;
+  --cadet-gray: #9ca3af;
+  --light-silver: #d1d5db;
+  --red: #ff3246;
+  --primary: #a009f8;
+  --purple-20: #e4b5fd;
+  --purple-60: #b30bf0;
+  --blue: #0041f0;
+  --gainsboro: #dcdcdc;
+
+  --btn-color: var(--primary);
+  --btn-outline: var(--primary);
+  --btn-text-inactive: var(--grey-30);
+  --btn-secondary-outline: var(--cadet-gray);
+  --bg-color: var(--white);
+  --bg-color-th: var(--grey-10);
+  --popup-footer-color: var(--grey-10);
+  --bg-precode: var(--light-gray);
+  --footer-bg-color: var(--white);
+  --text-color: var(--dark);
+  --link-color: var(--blue);
+  --error-color: var(--red);
+  --bg-switch: var(--light-silver);
+  --bg-pagination: transparent;
+  --text-pagination: var(--gray-dark);
+  --custom-dropdown-header: var(--white);
+  --custom-dropdown-option: var(--grey-5);
+  --border-popup-content: var(--grey-5);
+  --tooltip-icon-bg-color: var(--grey-70);
+  --tooltip-text-color: var(--white);
+  --tooltip-container: var(--grey-70);
+  --modal-button: var(--white);
+  --modal-button-hover: var(--gray);
+  --select-bg-arrow: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+  --accordion-arrow: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  --btn-close: transparent
+    url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000000'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e")
+    center/1em auto no-repeat;
+}
+
+[data-theme='dark'] {
+  --primary: var(--white);
+  --bg-color: var(--darker);
+  --bg-color-th: var(--darker);
+  --footer-bg-color: var(--dark);
+  --popup-footer-color: var(--dark);
+  --text-color: var(--white);
+  --custom-dropdown-header: var(--darker);
+  --custom-dropdown-option: var(--dark);
+  --border-popup-content: var(--dark);
+  --tooltip-icon-bg-color: var(--white);
+  --tooltip-text-color: var(--dark);
+  --tooltip-container: var(--white);
+  --modal-button: var(--darker);
+  --modal-button-hover: var(--darker);
+  --select-bg-arrow: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='none' stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3E%3C/svg%3E");
+  --accordion-arrow: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3E%3Cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3E%3C/svg%3E");
+  --btn-close: transparent
+    url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e")
+    center/1em auto no-repeat;
+}
+
+.dropdown-toggle {
+  &::after {
+    display: none !important;
+  }
+}
