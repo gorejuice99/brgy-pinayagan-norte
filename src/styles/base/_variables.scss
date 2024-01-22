@@ -1,0 +1,75 @@
+// Colors
+$purple-primary: #a200ffee;
+$purple-dark: #7600c0f0;
+$purple-darker: #470073f2;
+$purple-text: #3f1d4bf5;
+
+// Secondary purple
+$purple-secondary-1: #b852ae;
+$purple-secondary-2: #9c4ef6;
+$purple-secondary-3: #b375f7;
+$purple-secondary-4: #ce99f6;
+$purple-secondary-5: #d1c3f7;
+
+// Common colors
+$black: #000000;
+$gray-darker: #1e1e1f;
+$gray-dark: #a3a393;
+$gray: #bebeb4;
+$gray-light: #e9e9d7;
+$gray-lighter: #efefde;
+$white: #ffffff;
+$blue: #4d8eff;
+$light-blue: #00ffff;
+$green: #64ff50;
+$blue-green: #05f0a5;
+$red: #ff3246;
+$pink: #ff50a0;
+$orange: #ff7800;
+$yellow: #ffeb32;
+$background: #d1d7e0;
+
+$gray-text: #6b7280;
+$dark-gray-bg: #374151;
+// Gradients
+$body-bg-gradient: linear-gradient(#e1c9dd, #b4ebf8);
+
+// Font Family
+$ff-graphik: 'Graphik';
+
+// Font Weight
+$fw-thin: 100;
+$fw-extra-light: 200;
+$fw-light: 300;
+$fw-regular: 400;
+$fw-medium: 500;
+$fw-semi-bold: 600;
+$fw-bold: 700;
+$fw-extra-bold: 800;
+$fw-black: 900;
+$fw-extra-black: 950;
+
+// Font Sizes
+$font-size-base: 1rem;
+$font-size-sm: 0.875rem;
+$font-size-xs: 0.6875rem;
+$font-size-lg: 1.25rem;
+
+$line-height-base: 1.5;
+$line-height-sm: 1.25;
+$line-height-xs: 1.3;
+$line-height-lg: 2;
+
+// Sizes
+$header-height: 3rem;
+$max-screen-size: 1920px;
+
+// Breakpoints
+$breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);

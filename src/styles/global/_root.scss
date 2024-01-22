@@ -1,0 +1,31 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+  > div {
+    background-color: var(--bg-color);
+    min-height: 100vh;
+  }
+}
+
+.container-fluid {
+  max-width: $max-screen-size;
+}
+
+.container {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin-top: 80px;
+  margin-bottom: 64px;
+}

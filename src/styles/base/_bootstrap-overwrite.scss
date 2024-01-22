@@ -1,0 +1,98 @@
+@import 'variables';
+// Colors
+$primary: $purple-primary;
+$secondary: $purple-secondary-1;
+$success: $green;
+$info: $blue;
+$warning: $yellow;
+$danger: $red;
+$light: $gray-lighter;
+$dark: $gray-darker;
+
+// Themes
+// $theme-colors: (
+//   "primary":    $primary,
+//   "secondary":  $secondary,
+//   "success":    $success,
+//   "info":       $info,
+//   "warning":    $warning,
+//   "danger":     $danger,
+//   "light":      $light,
+//   "dark":       $dark,
+// );
+
+// Fonts
+$font-family-base: $ff-graphik, Arial, Helvetica, sans-serif;
+$body-color: $purple-text;
+
+$font-size-base: $font-size-base;
+$font-size-sm: $font-size-sm;
+$font-size-lg: $font-size-lg;
+
+$line-height-base: $line-height-base;
+$line-height-sm: $line-height-sm;
+$line-height-lg: $line-height-lg;
+
+// Spacing
+$spacer: 0.5rem;
+$spacers: (
+  0: 0,
+  '05': $spacer * 0.5,
+  1: $spacer,
+  2: $spacer * 2,
+  3: $spacer * 3,
+  4: $spacer * 4,
+  5: $spacer * 5,
+);
+
+// Breakpoints
+$grid-breakpoints: $breakpoints;
+
+// Containers
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1440px,
+);
+
+// Input
+$input-btn-focus-width: 0.1rem;
+
+// Buttons
+$btn-border-radius: 0.75rem;
+
+// Popover
+$popover-font-size: 0.75rem;
+$popover-bg: $gray-darker;
+$popover-max-width: 275px;
+$popover-border-width: 0;
+$popover-border-radius: 5px;
+
+$popover-header-bg: transparent;
+$popover-header-color: $white;
+
+$popover-body-color: $white;
+$popover-body-padding-y: 0.5rem;
+$popover-body-padding-x: 0.75rem;
+
+// Utilities
+$utilities: (
+  'font-weight': (
+    property: font-weight,
+    class: fw,
+    values: (
+      'thin': $fw-thin,
+      'extra-light': $fw-extra-light,
+      'light': $fw-light,
+      'regular': $fw-regular,
+      'medium': $fw-medium,
+      'semi-bold': $fw-semi-bold,
+      'bold': $fw-bold,
+      'extra-bold': $fw-extra-bold,
+      'black': $fw-black,
+      'extra-black': $fw-extra-black,
+    ),
+  ),
+);

@@ -1,0 +1,132 @@
+@mixin fontface($ff-name, $url, $weight, $style, $woff2: true, $woff: true) {
+  $urls: ();
+  @if $woff2 {
+    $urls: append(
+      $urls,
+      url($url + '.woff2') format('woff2'),
+      $separator: comma
+    );
+  }
+  @if $woff {
+    $urls: append($urls, url($url + '.woff') format('woff'), $separator: comma);
+  }
+
+  @font-face {
+    font-family: $ff-name;
+    src: $urls;
+    font-weight: $weight;
+    font-style: $style;
+    font-display: swap;
+  }
+}
+
+$ff-graphik-path: 'assets/fonts/graphik';
+
+@include fontface(
+  $ff-graphik,
+  $ff-graphik-path + '/Graphik-Super',
+  $fw-extra-black,
+  normal
+);
+@include fontface(
+  $ff-graphik,
+  $ff-graphik-path + '/Graphik-SuperItalic',
+  $fw-extra-black,
+  italic
+);
+@include fontface(
+  $ff-graphik,
+  $ff-graphik-path + '/Graphik-Black',
+  $fw-black,
+  normal
+);
+@include fontface(
+  $ff-graphik,
+  $ff-graphik-path + '/Graphik-BlackItalic',
+  $fw-black,
+  italic
+);
+@include fontface(
+  $ff-graphik,
+  $ff-graphik-path + '/Graphik-Bold',
+  $fw-bold,
+  normal
+);
+@include fontface(
+  $ff-graphik,
+  $ff-graphik-path + '/Graphik-BoldItalic',
+  $fw-bold,
+  italic
+);
+@include fontface(
+  $ff-graphik,
+  $ff-graphik-path + '/Graphik-Semibold',
+  $fw-semi-bold,
+  normal
+);
+@include fontface(
+  $ff-graphik,
+  $ff-graphik-path + '/Graphik-SemiboldItalic',
+  $fw-semi-bold,
+  italic
+);
+@include fontface(
+  $ff-graphik,
+  $ff-graphik-path + '/Graphik-Medium',
+  $fw-medium,
+  normal
+);
+@include fontface(
+  $ff-graphik,
+  $ff-graphik-path + '/Graphik-MediumItalic',
+  $fw-medium,
+  italic
+);
+@include fontface(
+  $ff-graphik,
+  $ff-graphik-path + '/Graphik-Regular',
+  $fw-regular,
+  normal
+);
+@include fontface(
+  $ff-graphik,
+  $ff-graphik-path + '/Graphik-RegularItalic',
+  $fw-regular,
+  italic
+);
+@include fontface(
+  $ff-graphik,
+  $ff-graphik-path + '/Graphik-Light',
+  $fw-light,
+  normal
+);
+@include fontface(
+  $ff-graphik,
+  $ff-graphik-path + '/Graphik-LightItalic',
+  $fw-light,
+  italic
+);
+@include fontface(
+  $ff-graphik,
+  $ff-graphik-path + '/Graphik-Extralight',
+  $fw-extra-light,
+  normal
+);
+@include fontface(
+  $ff-graphik,
+  $ff-graphik-path + '/Graphik-ExtralightItalic',
+  $fw-extra-light,
+  italic
+);
+@include fontface(
+  $ff-graphik,
+  $ff-graphik-path + '/Graphik-Thin',
+  $fw-thin,
+  normal
+);
+@include fontface(
+  $ff-graphik,
+  $ff-graphik-path + '/Graphik-ThinItalic',
+  $fw-thin,
+  italic
+);

@@ -1,0 +1,9 @@
+.pointer-events {
+  &-all {
+    pointer-events: all;
+  }
+
+  &-none {
+    pointer-events: none;
+  }
+}

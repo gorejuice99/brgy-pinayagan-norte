@@ -1,0 +1,14 @@
+.static {
+  .wrapper {
+    margin-left: 4px;
+    @media screen and (min-width: 1920px) {
+      padding-left: 2.5rem;
+    }
+  }
+  
+  .title {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 32px;
+  }
+}

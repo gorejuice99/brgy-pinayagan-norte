@@ -1,0 +1,30 @@
+.select-switch {
+  $switch-width: 38px;
+  $switch-height: 14px;
+
+  .form-switch {
+    padding: 0;
+    margin-bottom: 0;
+
+    .form-check-input {
+      width: $switch-width;
+      height: $switch-height;
+      margin-left: 0;
+      border: none;
+      background-color: $background;
+      border-radius: 0;
+      background-image: escape-svg(
+        url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'><rect x='2' y='2' width='8' height='4' fill='#{rgba($purple-dark, 0.5)}'/></svg>")
+      );
+      cursor: pointer;
+    }
+  }
+
+  .switch-label {
+    cursor: pointer;
+
+    &:not(.selected) {
+      opacity: 0.5;
+    }
+  }
+}

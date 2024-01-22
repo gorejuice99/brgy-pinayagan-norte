@@ -1,0 +1,19 @@
+.btn-secondary {
+  color: $white;
+
+  &:hover,
+  &:active {
+    color: $white;
+  }
+}
+
+.btn-light {
+  // color: $white;
+  background-color: $white;
+  color: $purple-primary;
+
+  &:hover,
+  &:active {
+    color: $purple-dark;
+  }
+}
