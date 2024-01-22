@@ -6,13 +6,13 @@ import path from 'path';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), svgr()],
-  base: '/brgy-pinayagan-norte',
+  base: '/brgy-pinayagan-norte/',
   define: {
     global: {},
   },
-  server: {
-    port: 3000,
-  },
+  // server: {
+  //   port: 3000,
+  // },
   resolve: {
     alias: {
       './runtimeConfig': './runtimeConfig.browser',
