@@ -1,0 +1,31 @@
+.footer {
+  background-color: var(--footer-bg-color);
+  color: var(--text-color);
+  box-shadow: 0px -2px 24px rgba(33, 43, 54, 0.1);
+  ul {
+    margin-left: 30px;
+  }
+
+  &_links {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+
+    li {
+      font-size: 0.75em;
+      & + li {
+        margin-left: 40px;
+      }
+
+      a {
+        text-decoration: none;
+        color: var(--text-color);
+
+        &:hover {
+          text-decoration: underline;
+          text-decoration-color: var(--primary);
+        }
+      }
+    }
+  }
+}

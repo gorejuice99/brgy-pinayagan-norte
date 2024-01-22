@@ -1,0 +1,46 @@
+{
+  "officials": [
+    {
+      "name": "Mitchille C. Ruferez",
+      "description": "Barangay Kagawad",
+      "imgUrl": "../src/assets/img/person-male.png",
+      "isMale": true
+    },
+    {
+      "name": "Dante O. Gallo",
+      "description": "Barangay Kagawad",
+      "imgUrl": "../src/assets/img/person-male.png",
+      "isMale": true
+    },
+    {
+      "name": "Niel Mark N. Antequisa",
+      "description": "Barangay Kagawad",
+      "imgUrl": "../src/assets/img/kag_mark.jpg",
+      "isMale": true
+    },
+    {
+      "name": "Gerry L. Asombrado",
+      "description": "Barangay Kagawad",
+      "imgUrl": "../src/assets/img/person-male.png",
+      "isMale": true
+    },
+    {
+      "name": "Metchel T. Lapiz",
+      "description": "Barangay Kagawad",
+      "imgUrl": "../src/assets/img/kag_mitchel.jpg",
+      "isMale": false
+    },
+    {
+      "name": "Efrelyn P. Bustalinio",
+      "description": "Barangay Kagawad",
+      "imgUrl": "../src/assets/img/person-female.png",
+      "isMale": false
+    },
+    {
+      "name": "Crispina N. Dolio",
+      "description": "Barangay Kagawad",
+      "imgUrl": "../src/assets/img/person-female.png",
+      "isMale": false
+    }
+  ]
+}

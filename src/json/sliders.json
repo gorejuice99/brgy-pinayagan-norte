@@ -1,0 +1,19 @@
+{
+  "carousels": [
+    {
+      "UUID": "1",
+      "title": "Pinayagan Norte",
+      "detail": "We envision the Barangay Pinayagan Norte to be more progressive, loving and peaceful place to live in where people and residents enjoy harmonious way of life and business."
+    },
+    {
+      "UUID": "2",
+      "title": "Pinayagan Norte",
+      "detail": "As a primary planning and implementing unit, the barangay is mandated to plan development projects and programs and implement government policies and activities in the community."
+    },
+    {
+      "UUID": "3",
+      "title": "Pinayagan Norte",
+      "detail": "We will build a healthy and diverse community by pooling our resources, sharing our skills and working cooperatively."
+    }
+  ]
+}
