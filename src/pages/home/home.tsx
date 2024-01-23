@@ -48,7 +48,7 @@ const Home: FC = () => {
         <div className={styles.wrapper}>
           <div className="d-flex justify-content-center py-5">
             <h1 className={`${styles.title} text-center`}>
-              BARANGAY OFFICIALS 2023
+              BARANGAY OFFICIALS 2024
             </h1>
           </div>
           <div className="d-flex justify-content-around py-2">
