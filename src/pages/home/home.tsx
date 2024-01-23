@@ -59,7 +59,7 @@ const Home: FC = () => {
                   src={"../src/assets/img/person-male.png"}
                   thumbnail
                 />
-                <p className={styles.person_name}>Roy J. Ladra</p>
+                <p className={styles.person_name}>Joshua Fabillar</p>
                 <p className={styles.person_description}>Barangay Captain</p>
               </Col>
             </Row>
